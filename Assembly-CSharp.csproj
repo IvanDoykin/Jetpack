@@ -46,12 +46,14 @@
      <Compile Include="Assets\InternalAssets\Utils\ReadOnlyField\ReadOnlyDrawer.cs" />
      <Compile Include="Assets\InternalAssets\Scripts\Configs\Scenes\Level.cs" />
      <Compile Include="Assets\InternalAssets\Scripts\App.cs" />
-     <Compile Include="Assets\InternalAssets\Scripts\SceneLoading\ILevelLoader.cs" />
-     <Compile Include="Assets\InternalAssets\Utils\OnChangeSerializedField\OnChangedCallAttribute.cs" />
      <Compile Include="Assets\InternalAssets\Scripts\SceneLoading\LevelLoader.cs" />
+     <Compile Include="Assets\InternalAssets\Utils\OnChangeSerializedField\OnChangedCallAttribute.cs" />
+     <Compile Include="Assets\InternalAssets\Scripts\SceneLoading\SingleplayerLevelLoader.cs" />
      <Compile Include="Assets\InternalAssets\Scripts\Configs\Config.cs" />
      <Compile Include="Assets\InternalAssets\Scripts\Configs\Scenes\SceneConfig.cs" />
      <Compile Include="Assets\InternalAssets\Utils\CreateGameObjectWithComponent\GameObjectExtender.cs" />
+     <Compile Include="Assets\InternalAssets\Scripts\SceneLoading\ScenePresenter.cs" />
+     <Compile Include="Assets\InternalAssets\Scripts\SceneLoading\MenuScene.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\InternalAssets\Scripts" />
      <Folder Include="Assets\InternalAssets\Configs" />

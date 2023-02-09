@@ -18,7 +18,7 @@ public class App : MonoBehaviour
     [NonReorderable]
     [SerializeField] private List<Config> _configs = new();
     
-    private ILevelLoader _loader;
+    private LevelLoader _loader;
 
     private void Awake()
     {
@@ -50,6 +50,6 @@ public class App : MonoBehaviour
     
     private void InitializeCoreModules()
     {
-        _loader = new LevelLoader(GetConfig<Scenes>());
+        _loader = new SingleplayerLevelLoader(GetConfig<Scenes>());
     }
 }
