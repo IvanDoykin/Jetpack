@@ -6,7 +6,8 @@ public class SceneLoaderSample : MonoBehaviour
 {
     [SerializeField] private SceneReference sceneToLoad;
 
-    private void Start()
+    [ContextMenu("LoadSelectedLevel")]
+    private void Load()
     {
         SceneManager.LoadScene(sceneToLoad);
     }

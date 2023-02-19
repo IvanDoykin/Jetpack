@@ -45,12 +45,13 @@
     <Analyzer Include="D:\Xpunity\Unity 2022.2.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\InternalAssets\Scripts\SceneLoading\SceneLoaderSample.cs" />
+     <Compile Include="Assets\ExternalAssets\Scripts\SceneLoading\SceneLoaderSample.cs" />
      <Folder Include="Assets" />
-     <Folder Include="Assets\InternalAssets\Scripts" />
-     <Folder Include="Assets\InternalAssets\Scripts\SceneLoading" />
-     <Folder Include="Assets\Settings" />
+     <Folder Include="Assets\ExternalAssets\Scripts" />
      <Folder Include="Assets\InternalAssets" />
+     <Folder Include="Assets\ExternalAssets\Scripts\SceneLoading" />
+     <Folder Include="Assets\Settings" />
+     <Folder Include="Assets\ExternalAssets" />
      <Folder Include="Assets\InternalAssets\Scenes" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Xpunity\Unity 2022.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -792,6 +793,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SerializableDictionary.csproj">
+      <Project>{31a34a82-465c-3baa-004f-325135deac82}</Project>
+      <Name>SerializableDictionary</Name>
+    </ProjectReference>
     <ProjectReference Include="SceneLoading.csproj">
       <Project>{ed274c02-31ce-57b1-f88e-873a6a449a90}</Project>
       <Name>SceneLoading</Name>

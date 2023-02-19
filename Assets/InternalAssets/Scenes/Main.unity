@@ -133,8 +133,9 @@ GameObject:
   m_Component:
   - component: {fileID: 167824704}
   - component: {fileID: 167824705}
+  - component: {fileID: 167824706}
   m_Layer: 0
-  m_Name: Loader
+  m_Name: Samples
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,3 +171,24 @@ MonoBehaviour:
   sceneToLoad:
     sceneAsset: {fileID: 102900000, guid: aa3c39da6ae93df40852ae6fcd8abc27, type: 3}
     scenePath: Assets/InternalAssets/Scenes/Level1.unity
+--- !u!114 &167824706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167824703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ff00a74ccb984498070d9930a7944c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_stringStringDictionary:
+    m_keys: []
+    m_values: []
+  m_objectColorDictionary:
+    m_keys: []
+    m_values: []
+  m_objectColorArrayDictionary:
+    m_keys: []
+    m_values: []
