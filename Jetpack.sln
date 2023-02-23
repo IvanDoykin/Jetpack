@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneLoading", "SceneLoading.csproj", "{ed274c02-31ce-57b1-f88e-873a6a449a90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{67f6b876-4754-599e-aff7-b4e70fa608a3}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializableDictionary", "SerializableDictionary.csproj", "{31a34a82-465c-3baa-004f-325135deac82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{67f6b876-4754-599e-aff7-b4e70fa608a3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Febucci.HierarchyIcons", "Febucci.HierarchyIcons.csproj", "{db873649-9c61-f58f-efee-5e8cc558ff22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,10 +16,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ed274c02-31ce-57b1-f88e-873a6a449a90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ed274c02-31ce-57b1-f88e-873a6a449a90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31a34a82-465c-3baa-004f-325135deac82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31a34a82-465c-3baa-004f-325135deac82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67f6b876-4754-599e-aff7-b4e70fa608a3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67f6b876-4754-599e-aff7-b4e70fa608a3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31a34a82-465c-3baa-004f-325135deac82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31a34a82-465c-3baa-004f-325135deac82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db873649-9c61-f58f-efee-5e8cc558ff22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db873649-9c61-f58f-efee-5e8cc558ff22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

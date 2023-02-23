@@ -45,13 +45,27 @@
     <Analyzer Include="D:\Xpunity\Unity 2022.2.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Without State Machine\Scripts\ILeg.cs" />
+     <Compile Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Without State Machine\Scripts\Leg.cs" />
      <Compile Include="Assets\ExternalAssets\Scripts\SceneLoading\SceneLoaderSample.cs" />
+     <Compile Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Without State Machine\Scripts\Legs.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\ExternalAssets\Scripts" />
      <Folder Include="Assets\InternalAssets" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\2.Child To Current Main" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Without State Machine" />
      <Folder Include="Assets\ExternalAssets\Scripts\SceneLoading" />
      <Folder Include="Assets\Settings" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\6.Child To Another Child" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\3.Child To Current Child" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\With State Machine" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\4.Main To Another Child" />
      <Folder Include="Assets\ExternalAssets" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\5.Child To Another Main" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Without State Machine\Scripts" />
+     <Folder Include="Assets\ExternalAssets\Scripts\CustomHierarchy" />
+     <Folder Include="Assets\InternalAssets\DependencySamples" />
+     <Folder Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child" />
      <Folder Include="Assets\InternalAssets\Scenes" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Xpunity\Unity 2022.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -716,14 +730,14 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Formats.Fbx.Runtime">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
@@ -731,11 +745,11 @@
      <Reference Include="Unity.RenderPipelines.Core.Editor">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
@@ -767,14 +781,14 @@
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Autodesk.Fbx.Editor">
-     <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="PPv2URPConverters">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Autodesk.Fbx.Editor">
+     <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
      <HintPath>D:\Jetpack\Jetpack\Jetpack\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
