@@ -59,6 +59,8 @@
      <Folder Include="Assets\InternalAssets\DependencySamples\6.Child To Another Child" />
      <Folder Include="Assets\InternalAssets\DependencySamples\3.Child To Current Child" />
      <Folder Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\With State Machine" />
+     <Folder Include="Assets\Editor Default Resources" />
+     <Folder Include="Assets\Editor Default Resources\Febucci" />
      <Folder Include="Assets\InternalAssets\DependencySamples\4.Main To Another Child" />
      <Folder Include="Assets\ExternalAssets" />
      <Folder Include="Assets\InternalAssets\DependencySamples\5.Child To Another Main" />
