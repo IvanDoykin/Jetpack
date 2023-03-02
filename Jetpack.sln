@@ -1,27 +1,36 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneLoading", "SceneLoading.csproj", "{ed274c02-31ce-57b1-f88e-873a6a449a90}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneLoading", "SceneLoading.csproj", "{024C27ED-CE31-B157-F88E-873A6A449A90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{67f6b876-4754-599e-aff7-b4e70fa608a3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{76B8F667-5447-9E59-AFF7-B4E70FA608A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializableDictionary", "SerializableDictionary.csproj", "{31a34a82-465c-3baa-004f-325135deac82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializableDictionary", "SerializableDictionary.csproj", "{824AA331-5C46-AA3B-004F-325135DEAC82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Febucci.HierarchyIcons", "Febucci.HierarchyIcons.csproj", "{db873649-9c61-f58f-efee-5e8cc558ff22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Febucci.HierarchyIcons", "Febucci.HierarchyIcons.csproj", "{493687DB-619C-8FF5-EFEE-5E8CC558FF22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ed274c02-31ce-57b1-f88e-873a6a449a90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ed274c02-31ce-57b1-f88e-873a6a449a90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67f6b876-4754-599e-aff7-b4e70fa608a3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67f6b876-4754-599e-aff7-b4e70fa608a3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31a34a82-465c-3baa-004f-325135deac82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31a34a82-465c-3baa-004f-325135deac82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{db873649-9c61-f58f-efee-5e8cc558ff22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{db873649-9c61-f58f-efee-5e8cc558ff22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024C27ED-CE31-B157-F88E-873A6A449A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024C27ED-CE31-B157-F88E-873A6A449A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024C27ED-CE31-B157-F88E-873A6A449A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024C27ED-CE31-B157-F88E-873A6A449A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B8F667-5447-9E59-AFF7-B4E70FA608A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B8F667-5447-9E59-AFF7-B4E70FA608A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B8F667-5447-9E59-AFF7-B4E70FA608A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B8F667-5447-9E59-AFF7-B4E70FA608A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824AA331-5C46-AA3B-004F-325135DEAC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824AA331-5C46-AA3B-004F-325135DEAC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824AA331-5C46-AA3B-004F-325135DEAC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824AA331-5C46-AA3B-004F-325135DEAC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493687DB-619C-8FF5-EFEE-5E8CC558FF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493687DB-619C-8FF5-EFEE-5E8CC558FF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493687DB-619C-8FF5-EFEE-5E8CC558FF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493687DB-619C-8FF5-EFEE-5E8CC558FF22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

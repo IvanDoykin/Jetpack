@@ -1,4 +1,4 @@
-namespace MainToChildWithoutStateMachine
+namespace MainToCurrentChild
 {
     // Current child interface
     public interface ILeg

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MainToChildWithoutStateMachine
+namespace MainToCurrentChild
 {
     public class Leg : MonoBehaviour, ILeg
     {
