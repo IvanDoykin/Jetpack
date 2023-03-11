@@ -59,12 +59,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\InternalAssets\DependencySamples\2.Child To Current Main\Scripts\IDamageReceiver.cs" />
+    <Compile Include="Assets\InternalAssets\DependencySamples\3.Child To Current Child\WithMain\Scripts\PingAnotherButton.cs" />
+    <Compile Include="Assets\InternalAssets\DependencySamples\3.Child To Current Child\WithMain\Scripts\IButtonCommand.cs" />
     <Compile Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Scripts\ILeg.cs" />
     <Compile Include="Assets\ExternalAssets\Scripts\SceneLoading\SceneLoaderSample.cs" />
+    <Compile Include="Assets\InternalAssets\DependencySamples\3.Child To Current Child\WithMain\Scripts\ButtonSystem.cs" />
+    <Compile Include="Assets\InternalAssets\DependencySamples\3.Child To Current Child\WithMain\Scripts\Button.cs" />
     <Compile Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Scripts\Legs.cs" />
     <Compile Include="Assets\InternalAssets\DependencySamples\2.Child To Current Main\Scripts\ContextMenuDamageReceiver.cs" />
     <Compile Include="Assets\InternalAssets\DependencySamples\2.Child To Current Main\Scripts\Health.cs" />
     <Compile Include="Assets\InternalAssets\DependencySamples\1.Main To Current Child\Scripts\Leg.cs" />
+    <Compile Include="Assets\InternalAssets\DependencySamples\3.Child To Current Child\WithMain\Scripts\ExampleButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
